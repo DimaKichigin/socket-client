@@ -8,7 +8,9 @@ import Messages from './Messages'
 import icon from "../images/emoji-add.svg"
 import styles from '../styles/Chat.module.css'
 
-const socket = io.connect("http://localhost:5000")
+// const socket = io.connect("http://localhost:5000")
+// Деплой на render
+const socket = io.connect("https://online-chat-txw8.onrender.com")
 	
 export default function Chat() {
 	const navigate = useNavigate()
