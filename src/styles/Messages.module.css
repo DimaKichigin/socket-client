@@ -5,11 +5,9 @@
 }
 
 .message {
-	width: max-content;
 	display: flex;
 	flex-direction: column;
 	row-gap: 5px;
-	/* width: 100%; */
 }
 
 .text {
@@ -25,6 +23,9 @@
 }
 
 .user .text {
+	max-width: max-content;
+	/* width: 300px; */
+
 	background: #514c4c;
 }
 
@@ -38,6 +39,7 @@
 
 .me .text {
 	background: #516ba7;
+
 }
 
 .me .user {

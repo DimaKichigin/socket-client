@@ -28,7 +28,7 @@ export default function Chat() {
 	const [isOpen, setOpen] = useState(false)
 	// Состояние под количество участников в комнате
 	// Изначально количество = 0
-	const [users, setUsers] = useState(1)
+	const [users, setUsers] = useState(0)
 
 // ======= useEffect ======================
 

@@ -9,6 +9,7 @@ export default function Messages({ messages, name }) {
 				const className = itsMe ? styles.me : styles.user
 				
 				return (
+					// <div key={i} className={`${styles.message} ${styles.me}`}>
 					<div key={i} className={`${styles.message} ${className}`}>
 						<span className={styles.user}>
 							{user.name}
