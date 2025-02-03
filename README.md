@@ -1,4 +1,5 @@
 ## Online-chat on socket.io
+> here is [socket-server](https://github.com/DimaKichigin/socket-server)
 
 In this project I have created a real-time chat application. In the chat you can create rooms to chat, connect other participants, leave the room, also send emoticons along with text. To create the server were used Node.js and Express.js. As data transfer, and event handling used Socket.io in order to establish a connection with the client. For the frontend, were used React and again Socket.io. The online chat deploy was done on Netlify and Render
 
